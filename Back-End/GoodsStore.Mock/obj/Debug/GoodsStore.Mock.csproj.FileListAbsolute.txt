@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Mock\bin\Debug\GoodsStore.Mock.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Mock\bin\Debug\GoodsStore.Mock.pdb
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Mock\obj\Debug\GoodsStore.Mock.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Mock\obj\Debug\GoodsStore.Mock.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Mock\obj\Debug\GoodsStore.Mock.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Mock\obj\Debug\GoodsStore.Mock.pdb

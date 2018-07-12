@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.ModelApi.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.ModelApi.pdb
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.Data.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.Data.pdb
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.Data.dll.config
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\obj\Debug\GoodsStore.ModelApi.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\obj\Debug\GoodsStore.ModelApi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\obj\Debug\GoodsStore.ModelApi.csproj.CopyComplete
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\obj\Debug\GoodsStore.ModelApi.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\obj\Debug\GoodsStore.ModelApi.pdb
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.Mock.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\System.Web.Helpers.Crypto.dll
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\GoodsStore.Mock.pdb
+C:\Users\User\source\repos\GoodsStore\GoodsStore.ModelApi\bin\Debug\System.Web.Helpers.Crypto.pdb
