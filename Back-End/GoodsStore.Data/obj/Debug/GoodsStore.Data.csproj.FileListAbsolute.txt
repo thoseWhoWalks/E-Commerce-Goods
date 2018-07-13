@@ -22,3 +22,4 @@ C:\Users\User\source\repos\GoodsStore\GoodsStore.Data\obj\Debug\GoodsStore.Data.
 C:\Users\User\source\repos\GoodsStore\GoodsStore.Data\obj\Debug\GoodsStore.Data.Migrations.Manytomanyfix.resources
 C:\Users\User\source\repos\GoodsStore\GoodsStore.Data\bin\Debug\GoodsStore.Mock.dll
 C:\Users\User\source\repos\GoodsStore\GoodsStore.Data\bin\Debug\GoodsStore.Mock.pdb
+C:\Users\User\source\repos\GoodsStore\GoodsStore.Data\obj\Debug\GoodsStore.Data.Migrations.virtualnavigationpropsfix.resources

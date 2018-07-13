@@ -80,6 +80,10 @@
     <Compile Include="Migrations\201807112157523_Many to many fix.Designer.cs">
       <DependentUpon>201807112157523_Many to many fix.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807130720396_virtual navigation props fix.cs" />
+    <Compile Include="Migrations\201807130720396_virtual navigation props fix.Designer.cs">
+      <DependentUpon>201807130720396_virtual navigation props fix.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\Product.cs" />
@@ -111,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807112157523_Many to many fix.resx">
       <DependentUpon>201807112157523_Many to many fix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807130720396_virtual navigation props fix.resx">
+      <DependentUpon>201807130720396_virtual navigation props fix.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

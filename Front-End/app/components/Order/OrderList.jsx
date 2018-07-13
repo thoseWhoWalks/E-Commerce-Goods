@@ -22,22 +22,37 @@ class OrderList extends React.Component{
 
                this.state = {template : ""};
 
-                sendGetRequest("Id="+localStorage.getItem("CurrentUser"), "http://localhost:54005/api/v1/order/getOrders", (data) => {
+               this.ProductNames = [];
+
+                sendGetRequest("Id="+localStorage.getItem("CurrentUserId"), "http://localhost:54005/api/v1/order/getOrders", (data) => {
 				   
 				     if (!data.Ok) {
 				         alert(data.Errors[0].Message);
 				         return;
 				     }
 
-				     this.setState({template:this.GetTemplate(data)});
+				       data.Items.map((item) => {
+				     	
+				     	 sendGetRequest("Id="+item.ProductId, "http://localhost:54005/api/v1/product/get", (data) => {
+				  	 		
+				  			this.ProductNames.push(data.Item.Title);
+				  			
+				  		});
+				     })
+
+
+				     this.setState({template:this.GetTemplate(data,this.ProductNames)});
 
 				 });
            };
  
-	  	  GetTemplate(data){
+	  	  GetTemplate(data,ProductNames){
 	  	  	
-	  	    	let template  = data.Items.map(function(item,index){
-				     	return <OrderListItem Product={item.ProductId} key ={item.Id} index={index} Anotation={item.Anotation} />
+	  	    	let template;
+	  	    	this.ProductNames = ProductNames;
+
+	  	    	 template = data.Items.map( (item,index) => {
+				     	return <OrderListItem Product={this.ProductNames.pop()} key ={item.Id} Anotation={item.Anotation} />
 				     });
 
 				     return template; 

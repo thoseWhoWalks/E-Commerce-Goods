@@ -21,7 +21,7 @@ namespace GoodsStore.Data
 		public string Email { get; set; }
 		public bool IsDeleted { get; set; }
 		 
-		public Order Order { get; set; }
+		public virtual Order Order { get; set; }
 
 	}
 

@@ -16,8 +16,9 @@ constructor(props) {
             alert(data.Errors[0].Message);
           }
           else{ 
-          		if(localStorage.getItem('CurrentUser'))
-	          		localStorage.removeItem('CurrentUser');
+          		if(localStorage.getItem('CurrentUserId'))
+	          		localStorage.removeItem('CurrentUserId');
+	          		localStorage.removeItem('CurrentUserEmail');
  				alert("Logged out"); 
  			}
       }); 

@@ -6,6 +6,8 @@ class AccounInfo extends React.Component{
   constructor(props) { 
                super(props);  
                this.handleSubmit = this.handleSubmit.bind(this);
+
+               ;
            };
  
   handleSubmit(e){
@@ -18,7 +20,7 @@ class AccounInfo extends React.Component{
                 <form onSubmit={this.handleSubmit} id="Account row">
 
                       <div className="form-group row">
-                          <input type="text" className="form-control col-lg-8" readOnly  name="FirstName"  value={localStorage.getItem('CurrentUser')} id="firstName"/>
+                          <input type="text" className="form-control col-lg-8" readOnly  name="FirstName"  value={localStorage.getItem('CurrentUserEmail')} id="firstName"/>
                       </div>
  
                         <div className="row submitBtnSection"> 

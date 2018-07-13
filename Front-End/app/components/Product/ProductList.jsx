@@ -22,9 +22,9 @@ class ProductItem  extends React.Component{
 class ProductList extends React.Component{
 
 		 constructor(props) {
-               super(props); 
+              super(props); 
                
- 				this.state =  {template:""};
+ 			   this.state =  {template:""};
                this.generateTemplate= this.generateTemplate.bind(this);
                	
 
@@ -36,19 +36,19 @@ class ProductList extends React.Component{
            };
  
 	  	   generateTemplate(data) {
-			     let template;
+			     	let template;
 
-			    template = data.Items.map(function(item) {
-			          return <ProductItem itemId={item.Id} Title={item.Title} key = {item.Id} Description = {item.Description} Price = {item.Price}/>
-			     })
- 
-			     return template;
-			 }
+				    template = data.Items.map(function(item) {
+				          return <ProductItem itemId={item.Id} Title={item.Title} key = {item.Id} Description = {item.Description} Price = {item.Price}/>
+				     })
+	 
+				     return template;
+				 }
 
 	  render(){ 
 	  	  
 	  	 	return(<div className="ProductList container row" >
-	  	 				 <div className="d-flex justify-content-around offset-lg-1  col-11 row">
+	  	 				 <div className="poductListContainer d-flex justify-content-around offset-lg-1  col-11 row">
 				    	    {this.state.template}
 				    	    </div>
 					</div>);

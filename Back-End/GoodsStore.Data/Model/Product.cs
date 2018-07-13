@@ -16,6 +16,6 @@ namespace GoodsStore.Data
 		public int Price { get; set; }
 		public bool IsDeleted { get; set; }
 		 
-		public Order Order { get; set; }
+		public virtual Order Order { get; set; }
 	}
 }

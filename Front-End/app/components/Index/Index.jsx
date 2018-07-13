@@ -10,10 +10,10 @@ class Index extends React.Component{
   render(){ 
   		 
 
- 		if(localStorage.getItem('CurrentUser')==undefined){ 
+ 		if(localStorage.getItem('CurrentUserId')==undefined){ 
  			return (
  				<div> 
-			        <SignIn></SignIn>
+			        <SignIn history={this.props.history}></SignIn>
 			    </div>);
  		}
  		else{ 

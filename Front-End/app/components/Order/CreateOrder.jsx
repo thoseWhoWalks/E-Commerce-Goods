@@ -40,7 +40,7 @@ class  CreateOrder extends React.Component{
                 <textarea className="form-control row" name="Anotation" rows="5" id="desc"></textarea>
               </div> 
                <div className ="form-group" >
-                <input type="hidden" className="form-control row" name="UserId" required value={localStorage.getItem("CurrentUser")}/>
+                <input type="hidden" className="form-control row" name="UserId" required value={localStorage.getItem("CurrentUserId")}/>
               </div> 
             <div className="d-flex justify-content-center navigationBtnSection">
                 <button className="btn-lg btn-default" onClick={this.submit}>Create</button> 

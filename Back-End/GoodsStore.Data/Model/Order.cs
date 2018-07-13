@@ -16,8 +16,8 @@ namespace GoodsStore.Data
 		public Guid ProductId { get; set; }
 		public bool IsDeleted { get; set; }
 
-		public ICollection<User> Users { get; set; } = new List<User>();
+		public virtual ICollection<User> Users { get; set; } = new List<User>();
 	 
-		public ICollection<Product> Products { get; set; } = new List<Product>();  
+		public virtual ICollection<Product> Products { get; set; } = new List<Product>();  
 	}
 }

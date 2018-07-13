@@ -11,8 +11,7 @@ class SignIn extends React.Component{
   constructor(props) {
        super(props);
                 
-       this.submit = this.submit.bind(this); 
-       this.handleSubmit = this.handleSubmit.bind(this);
+       this.submit = this.submit.bind(this);  
     };
  
   submit(e){
@@ -30,23 +29,21 @@ class SignIn extends React.Component{
             alert(data.Errors[0].Message);
           }
           else{
-            alert("Logged in...");
-            localStorage.setItem('CurrentUser', data.Item.Id); 
+            localStorage.setItem('CurrentUserId', data.Item.Id);
+            localStorage.setItem('CurrentUserEmail', data.Item.Email); 
+            alert("Logged in...");   
+            this.props.history.push('/');
           }
  
       });
 
    }
 
-   handleSubmit(e) {
-
-    }
- 
 
   render(){return (<section className = "signUp row">
         <div className="form text-secondary offset-lg-1 col">
                 <h4 className="  title row" id="signUpTitle">Sign In</h4>
-                <form onSubmit={this.handleSubmit} id="SignIn">
+                <form id="SignIn">
 
                       <div className="form-group row">
                           <input type="text" className="form-control col-lg-8" required name="Email" autoComplete="given-name" pattern="[a-zA-Z]+" placeholder="User name" defaultValue="admin" id="Email"/>
