@@ -1,4 +1,4 @@
-# E-Commerce-Goods
+# E-Commerce Goods
 E-Commerce for selling abstract goods
 
 Architectue: Web Api 2.0, N-Tier
@@ -18,5 +18,9 @@ Architectue: Web Api 2.0, N-Tier
 <pre>
 -Autofac
 -Entity Framework,
--Automapper
+-Automapper,
+-React
 </pre>
+
+<strong>Authorization:</strong>
+Coockies 
